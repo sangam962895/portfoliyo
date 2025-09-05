@@ -1,0 +1,91 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa; /* subtle light background for clean look */
+  color: #333;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Hero image */
+img.hero-img {
+  max-height: 350px;
+}
+
+/* Skills card hover effect */
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  background-color: #495057;
+}
+
+/* Project card hover effect */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Certification card hover effect */
+.cert-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Section headings */
+h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Adjust card titles */
+.card-title {
+  font-size: 1rem;
+}
+
+/* Adjust card text */
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 5px;
+}
+
+/* Footer styling (optional if needed) */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
